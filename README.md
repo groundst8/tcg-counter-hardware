@@ -22,7 +22,7 @@ The v1 hardware will only interface to a single 7 segment display. Representing 
 Options:
 - 2:1 (SPDT) 8-Channel Switch, would have to tie common electrode to ground (slower off switching) due to limited gpios and one needed to select between displays
 - 16 Channel Demultiplexer, each segment addressable with 4 GPIOs, 1 for value (on/off), one for common electrode (on/off)
-- I2C GPIO Expander
+- I2C GPIO Expander (TCAL9539)
 - NFC I2C to general MCU with > 14 GPIOs
 
 
