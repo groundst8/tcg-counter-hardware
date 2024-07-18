@@ -25,4 +25,12 @@ Options:
 - I2C GPIO Expander (TCAL9539)
 - NFC I2C to general MCU with > 14 GPIOs
 
+## Development Board Prototyping
 
+![dev_board](https://github.com/user-attachments/assets/842c668a-7c41-4d38-ab9c-c0872c784d76)
+
+- GoodTag11
+  - Open source hardware design
+  - PCB & SMT assembly by JLCPCB
+  - Through hole headers hand soldered by yours truly
+- Ynvisible E-Paper Display Kit Adapter
