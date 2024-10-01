@@ -34,3 +34,7 @@ Options:
   - PCB & SMT assembly by JLCPCB
   - Through hole headers hand soldered by yours truly
 - Ynvisible E-Paper Display Kit Adapter
+
+## Electrical Engineering
+
+[Jupyter Notebook](display.ipynb)
