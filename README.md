@@ -38,3 +38,31 @@ Options:
 ## Electrical Engineering
 
 [Jupyter Notebook](display.ipynb)
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Given parameters
+I_peak = (2.92/7)*1000        # Peak current in uA
+I_steady = (0.00081/7)*1000   # Steady-state current in uA
+taus = [40, 50, 60]           # Different time constants in ms
+
+# Time array from 0 to 300 ms
+t = np.linspace(0, 300, 1000)  # Time in ms
+
+plt.figure(figsize=(8, 5))
+
+# Plotting the decay function for each time constant
+for tau in taus:
+    I_t = I_steady + (I_peak - I_steady) * np.exp(-t / tau)
+    plt.plot(t, I_t, label=f'τ = {tau} ms')
+
+plt.title('Current Decay During Electrochromic Display Switching')
+plt.xlabel('Time (ms)')
+plt.ylabel('Current (uA)')
+plt.grid(True)
+plt.legend()
+plt.show()
+
+```
