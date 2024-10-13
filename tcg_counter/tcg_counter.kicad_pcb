@@ -85,13 +85,198 @@
 		)
 	)
 	(net 0 "")
+	(footprint "Library:D0430G02V01"
+		(layer "F.Cu")
+		(uuid "0ca8b151-25f9-45d7-b92d-edae58c7287b")
+		(at 133 100)
+		(property "Reference" "REF**"
+			(at 17.5 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9c1aa31d-dfb3-4b26-b034-4e49391954dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "D0430G02V01"
+			(at 17.5 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "568eb562-d69a-49d7-bd13-b64001b3d2ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Library:D0430G02V01"
+			(at 17.5 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a92e8f8-ec8c-40c6-b823-38690d51bb8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.5 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b9e4662-eb68-4a36-9189-15dcf916ec0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 17.5 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48dec663-ef9e-4806-b6c8-546ba31279f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -5.3 -5.05)
+			(end -5.3 -28.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "c10cf675-66a3-4e8d-9314-a9d3754c2392")
+		)
+		(fp_line
+			(start -0.3 -33.95)
+			(end 35.3 -33.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b155dca7-d10d-4cfd-8d2a-33f6957ffbaf")
+		)
+		(fp_line
+			(start 35.3 -0.05)
+			(end -0.3 -0.05)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "fb935753-c1e5-47dc-bc01-6c810b15662e")
+		)
+		(fp_line
+			(start 40.3 -28.95)
+			(end 40.3 -5.05)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "499c2ffa-4a00-46bf-af79-cfc733f626d7")
+		)
+		(fp_rect
+			(start 9 0)
+			(end 26 12.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "7da394f4-3c07-4fdf-8bce-a88c6fddaef9")
+		)
+		(fp_arc
+			(start -5.3 -28.95)
+			(mid -3.835534 -32.485534)
+			(end -0.3 -33.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "7a005273-b8f0-4762-9940-fb704984a0e7")
+		)
+		(fp_arc
+			(start -0.3 -0.05)
+			(mid -3.835534 -1.514466)
+			(end -5.3 -5.05)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2965150a-dffd-4d5a-b026-78367372da49")
+		)
+		(fp_arc
+			(start 35.3 -33.95)
+			(mid 38.835534 -32.485534)
+			(end 40.3 -28.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2d1dd96f-1437-487e-979a-3712ffb07f32")
+		)
+		(fp_arc
+			(start 40.3 -5.05)
+			(mid 38.835534 -1.514466)
+			(end 35.3 -0.05)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "1877cc40-3a08-4af4-9a8c-e5f6e10205c6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 17.5 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "31171738-a07d-4bc7-8bea-aec2b4550f92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(group ""
+			(uuid "482f855e-e7c0-429d-b59c-d3eb11e4036b")
+			(members "1877cc40-3a08-4af4-9a8c-e5f6e10205c6" "2965150a-dffd-4d5a-b026-78367372da49"
+				"2d1dd96f-1437-487e-979a-3712ffb07f32" "499c2ffa-4a00-46bf-af79-cfc733f626d7"
+				"7a005273-b8f0-4762-9940-fb704984a0e7" "b155dca7-d10d-4cfd-8d2a-33f6957ffbaf"
+				"c10cf675-66a3-4e8d-9314-a9d3754c2392" "fb935753-c1e5-47dc-bc01-6c810b15662e"
+			)
+		)
+	)
 	(footprint "Library:qrcode"
 		(layer "F.Cu")
 		(uuid "f1755a08-8fbd-46e6-8c66-111f60652295")
-		(at 171 55)
+		(at 172 52)
 		(property "Reference" "QR*****"
 			(at 0 9.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a2984db8-3a3e-4efe-895c-e19501da9afb")
 			(effects
 				(font
@@ -103,6 +288,7 @@
 		(property "Value" "qrcode"
 			(at 0 -9.75 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4786f1ee-a7bb-4b7e-a184-d197476e9c21")
 			(effects
 				(font
@@ -6431,6 +6617,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e5f6b600-050e-4fe6-bebc-cce1a4b4c6f2")
+	)
+	(gr_text "groundst8"
+		(at 125 47 0)
+		(layer "F.SilkS")
+		(uuid "5308c7c4-7724-4376-932b-e718a727bd96")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "63x88mm Magic The Gathering Card dimensions\n2mm corner fillet"
 		(at 69 155 0)
