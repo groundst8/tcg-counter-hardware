@@ -27,6 +27,8 @@ Options:
 
 ## Development Board Prototyping
 
+### Iteration 1
+
 ![dev_board](https://github.com/user-attachments/assets/842c668a-7c41-4d38-ab9c-c0872c784d76)
 
 - GoodTag11
@@ -34,6 +36,12 @@ Options:
   - PCB & SMT assembly by JLCPCB
   - Through hole headers hand soldered by yours truly
 - Ynvisible E-Paper Display Kit Adapter
+
+#### Issues
+- E-paper display backpowering RF430FRL152H via GPIO ESD diodes in no power state
+  - GPIOs do not remain high-Z and display loses contrast
+- TimerA0 low power delays not working in ROM patch operating mode
+  - Temporarily doing delays on smartphone side
 
 ## Electrical Engineering
 
