@@ -42,6 +42,19 @@ Options:
   - GPIOs do not remain high-Z and display loses contrast
 - TimerA0 low power delays not working in ROM patch operating mode
   - Temporarily doing delays on smartphone side
+ 
+## Iteration 2
+
+![PXL_20241019_153513104](https://github.com/user-attachments/assets/786ee0f7-d6f4-45c5-a042-7c8a554176ea)
+
+- Put two 4 channel TMUX1511 analog switches between GPIOs and display
+  - Enabled when have power and disabled when no power is applied
+  - Fixes display contrast loss issue from Iteration 1
+
+#### Issues
+- GPIO Port1.7 is used by ROM code to indicate operating mode and doesn't seem available for display use in ROM patch mode
+- Ultimately would be more useful with two 7 segment digits, could potentially use single chip TCAL9539 GPIO expanded that should also remain high-Z with no power
+  - Would be fewer parts than the TMUX1511 solution and give greater capability
 
 ## Electrical Engineering
 
