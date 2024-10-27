@@ -21,6 +21,16 @@
 - Low-Voltage 16-Bit I2c Expander
 - I/Os backpowered protected
 
+## Constraints
+
+### Harvested Power
+
+Table 4 from [Frequently asked questions for RF430FRL15xH devices](https://www.ti.com/lit/an/sloa247c/sloa247c.pdf) shows the maximum harvested power available when using the using the TRF7970AEVM with a 5-V power supply as the tag reader. It is also mentioned that the current that can be supplied depends on the reader distance to the tag. 
+
+![Screenshot 2024-10-27 at 3 35 25 PM](https://github.com/user-attachments/assets/0d3c73d3-ece4-41e6-90c6-07b050413aad)
+
+
+
 ## Development Board Prototyping
 
 ### Iteration 1
