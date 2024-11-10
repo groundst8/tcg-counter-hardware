@@ -29,7 +29,11 @@ Table 4 from [Frequently asked questions for RF430FRL15xH devices](https://www.t
 
 ![Screenshot 2024-10-27 at 3 35 25 PM](https://github.com/user-attachments/assets/0d3c73d3-ece4-41e6-90c6-07b050413aad)
 
+## Ynvisible Display Testing
 
+Twenty minute timelapse test to evaluation if the Ynvisible 7 segment display keeps readable contrast over a 20 minute period without power. Twenty minutes was chosen as the upper end of how long a counter would go without being updated. Twenty minutes is the length of the average Magic The Gathering standard format game. Commander games go longer but generally counters are updated over the course of the game which would provide the refresh without requiring additional effort.
+
+[![YouTube](http://i.ytimg.com/vi/dayQ5Arc0Ek/hqdefault.jpg)](https://www.youtube.com/watch?v=dayQ5Arc0Ek)
 
 ## Development Board Prototyping
 
