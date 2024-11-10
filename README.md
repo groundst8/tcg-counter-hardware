@@ -7,15 +7,14 @@
 - NfcV
 - 1.5V passivey powered
 - 8 bit GPIO
+- I2c
 - +/- 400 uA GPIO current, 500 uA max all I/O 0.15V voltage drop
 
 [Ynvisible D0432G02V01](https://assets-global.website-files.com/5f7f21e12602d912658dce12/62207f04e89fc72369fa582a_D0432G02V01-V1.0.pdf)
 - 7 Segment E-Paper Display
 - +/- 1.5V operating voltage
 - 0.81 uA steady state current, all segments on
-- ~3.25 mA (datasheet says 2.92 mA) peak current (all segments?) ~1.25 mA peak / segment
-
-![Picture1](https://github.com/user-attachments/assets/8b8edc19-059e-45b4-8ac7-fa8590120311)
+- ~3.25 mA (datasheet says 2.92 mA) peak current all segments; ~1.25 mA peak / segment
 
 [TI TCAL9539](https://www.ti.com/lit/ds/symlink/tcal9539.pdf)
 - Low-Voltage 16-Bit I2c Expander
@@ -67,6 +66,11 @@ Twenty minute timelapse test to evaluation if the Ynvisible 7 segment display ke
   - Would be fewer parts than the TMUX1511 solution and give greater capability
 - Peak current consumption of display was more than anticiapted per segment
   - Look into handling larger peak current with appropriately sized capacitor
+
+Ynvisible provided segment switching current decay curves which are shown below modeled with exponential decay functions. The raw data is available in 1vs7segs.xlsx. I was anticipating the single segment switching current to be lower so will need to do some additional testing and measurement to determine if enough energy will be harvested to do the switching.
+
+![ynvisible](https://github.com/user-attachments/assets/937a3872-02f8-4a9d-9c7e-412e29af8169)
+
 
 ## Electrical Engineering
 
