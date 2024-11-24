@@ -71,6 +71,20 @@ Ynvisible provided segment switching current decay curves which are shown below 
 
 ![ynvisible](https://github.com/user-attachments/assets/937a3872-02f8-4a9d-9c7e-412e29af8169)
 
+## Iteration 3
+
+![PXL_20241124_011913071](https://github.com/user-attachments/assets/da9ca87d-5d6a-4206-8605-0dc292073559)
+
+- Switched to RF430FRL152HEVM dev board
+  - Can program with MSP-FET programmer via JTAG
+  - Work around issue programming GoodTag11 with GoodV over the air not working with NFC only ROM firmware
+- Switched from TMUX1511s to TCAL9539 for GPIO expansion and backpower protection
+- Switched to Ynvisible 2 digit 7 segment display
+
+#### Issues
+- Currently powered from MSP-FET source
+  - Need to do testing and see if can find solution to passively power from RF field in a way that is economically viable
+- Need to get JTAG level transalation working so can switch back to GoodTag11 and custom PCB instead of dev board and use MSP-FET programmer
 
 ## Electrical Engineering
 
