@@ -86,6 +86,22 @@ Ynvisible provided segment switching current decay curves which are shown below 
   - Need to do testing and see if can find solution to passively power from RF field in a way that is economically viable
 - Need to get JTAG level transalation working so can switch back to GoodTag11 and custom PCB instead of dev board and use MSP-FET programmer
 
+## Iteration 4
+
+![PXL_20250226_012708564](https://github.com/user-attachments/assets/b00bfa75-0499-4fe1-a645-0549ec979e15)
+
+- Switched back to GoodTag11 from RF430FRL152HEVM dev board
+- JTAG Level Translation & JTAG debugging working
+  - Using SN74AXC4T774 Evaluation Module with TCK, TDI, TMS, TDO, and RST signals 3.3v <-> 1.5v
+  - Replaced some 10pF capacitors that should have been 10nF and were preventing JTAG debugging from working
+- EnergyTrace working
+
+![energy_trace_plot](https://github.com/user-attachments/assets/956a6829-ae13-4236-b9bb-2927a5ab64b3)
+
+#### Issues
+- Evaluate passive power ability to drive display
+- Complete PCB layouts for mainboard and JTAG translation board
+
 ## Electrical Engineering
 
 [Jupyter Notebook](display.ipynb)
