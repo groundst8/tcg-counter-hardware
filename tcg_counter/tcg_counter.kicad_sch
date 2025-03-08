@@ -3059,16 +3059,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 97.79 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136918c7-60cf-4b23-a65e-991e33f30b7e")
-	)
-	(wire
-		(pts
 			(xy 127 151.13) (xy 139.7 151.13)
 		)
 		(stroke
@@ -3286,16 +3276,6 @@
 			(type default)
 		)
 		(uuid "48c88616-3501-4492-85f9-1e13b1c4b865")
-	)
-	(wire
-		(pts
-			(xy 127 66.04) (xy 97.79 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48d70977-1fd4-4e17-8c77-c4c0b47aa546")
 	)
 	(wire
 		(pts
@@ -3919,17 +3899,6 @@
 		)
 		(uuid "e055a6d4-dd1d-4976-b4cb-54693c1e1c14")
 	)
-	(label "P1.3"
-		(at 99.06 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b998f94-78dd-49bd-9c45-f2b24f853de8")
-	)
 	(label "P1.0"
 		(at 99.06 60.96 0)
 		(fields_autoplaced yes)
@@ -3962,17 +3931,6 @@
 			(justify left bottom)
 		)
 		(uuid "fda600e1-af6d-4b62-b3be-6525e5271a56")
-	)
-	(label "P1.2"
-		(at 99.06 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ffe205ba-8904-4059-9aac-c127ad63b10b")
 	)
 	(global_label "TMS"
 		(shape input)
