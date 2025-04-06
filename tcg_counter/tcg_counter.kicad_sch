@@ -10,173 +10,6 @@
 		(company "groundst8")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3010,12 +2843,6 @@
 		(uuid "3a4a9c67-ef62-458f-a45a-179533617328")
 	)
 	(junction
-		(at 251.46 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e315674-26c5-43d6-b0df-2eb14f97c358")
-	)
-	(junction
 		(at 114.3 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3068,12 +2895,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be6dd9ab-d266-4137-a6c8-c1e451d5d9d1")
-	)
-	(junction
-		(at 256.54 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7dec2a0-7894-4787-8ddb-a599e108103a")
 	)
 	(junction
 		(at 83.82 60.96)
@@ -3209,7 +3030,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 135.89) (xy 129.54 135.89)
+			(xy 127 135.89) (xy 130.81 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3399,6 +3220,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 135.89) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ced1c8b-4151-48da-93fb-20d84cff3c90")
+	)
+	(wire
+		(pts
 			(xy 127 143.51) (xy 139.7 143.51)
 		)
 		(stroke
@@ -3489,16 +3320,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 41.91) (xy 251.46 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "589406f2-5a99-4689-8388-c4d0de459832")
-	)
-	(wire
-		(pts
 			(xy 88.9 156.21) (xy 88.9 158.75)
 		)
 		(stroke
@@ -3519,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 49.53) (xy 256.54 49.53)
+			(xy 248.92 49.53) (xy 264.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3799,36 +3620,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 135.89) (xy 139.7 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8cfb2ae-131a-4791-b8a7-fbfa2c6acf8b")
-	)
-	(wire
-		(pts
-			(xy 264.16 41.91) (xy 251.46 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "babef2be-7860-4024-b1cb-68e152b0645f")
-	)
-	(wire
-		(pts
-			(xy 248.92 49.53) (xy 256.54 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc91f4e5-2096-491e-b296-31afda186a1f")
-	)
-	(wire
-		(pts
 			(xy 127 120.65) (xy 139.7 120.65)
 		)
 		(stroke
@@ -4029,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 41.91) (xy 248.92 41.91)
+			(xy 248.92 41.91) (xy 264.16 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4106,6 +3897,16 @@
 			(type default)
 		)
 		(uuid "ff74ca31-0965-422e-aea6-142eace8ca14")
+	)
+	(text "Pad for current limiting\nresistor"
+		(exclude_from_sim no)
+		(at 133.35 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23f7086f-a5bc-4dd9-9e78-5f4dc38f9d38")
 	)
 	(text "I2c pull-up resisstors"
 		(exclude_from_sim no)
@@ -4389,7 +4190,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 236.22 49.53 90)
+			(at 236.474 49.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,73 +4235,6 @@
 			(project "tcg_counter"
 				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d2d5aa0-9fb5-4bcf-be8c-4bb7772d12c5")
-		(property "Reference" "R1"
-			(at 131.318 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 135.382 138.684 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 133.35 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c13246e-410d-49a1-8a67-03ed3ebec121")
-		)
-		(pin "1"
-			(uuid "da760bf2-73ea-4582-b38d-81e24a268d7e")
-		)
-		(instances
-			(project ""
-				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4436,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 236.22 52.07 90)
+			(at 236.474 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +4985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RTW_WQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "tcal:WQFN24_RTW-J_TEX-L"
 			(at 117.348 164.592 0)
 			(effects
 				(font
@@ -5354,6 +5088,73 @@
 			(project ""
 				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 133.35 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "523447a8-81d7-4008-ba46-12214b19f6ba")
+		(property "Reference" "R1"
+			(at 129.54 134.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 136.144 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "311690e7-f1c6-44c8-a1a3-917ff56bfad4")
+		)
+		(pin "1"
+			(uuid "653417fd-536a-4b27-b662-4575284453a2")
+		)
+		(instances
+			(project ""
+				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6654,75 +6455,6 @@
 			(project "tcg_counter"
 				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 256.54 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed6f0df8-8242-40bb-9f66-704f2ca27335")
-		(property "Reference" "J1"
-			(at 256.54 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "U.FL"
-			(at 251.46 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
-			(at 256.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5ec157f-4e4d-4613-a18a-c2a6de71f014")
-		)
-		(pin "2"
-			(uuid "996839d8-8609-41c8-bf63-883a3e9cb76f")
-		)
-		(instances
-			(project "tcg_counter"
-				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
-					(reference "J1")
 					(unit 1)
 				)
 			)
