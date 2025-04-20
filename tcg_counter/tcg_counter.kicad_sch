@@ -2831,6 +2831,12 @@
 		(uuid "1c5d0e22-281e-4879-94d3-88a965da5602")
 	)
 	(junction
+		(at 125.73 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e165cd6-5064-4868-8107-af3120a32cb3")
+	)
+	(junction
 		(at 109.22 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2940,6 +2946,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 35.56) (xy 125.73 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00de2086-57f7-4056-877b-10abd988db29")
+	)
+	(wire
+		(pts
 			(xy 127 33.02) (xy 120.65 33.02)
 		)
 		(stroke
@@ -3017,6 +3033,16 @@
 			(type default)
 		)
 		(uuid "103790b3-244f-47f7-83ef-9b4a37a0d006")
+	)
+	(wire
+		(pts
+			(xy 55.88 81.28) (xy 60.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a389cd-a4ce-4e50-8fa6-2b52c3373b9d")
 	)
 	(wire
 		(pts
@@ -3460,6 +3486,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 38.1) (xy 127 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be2319a-30e5-40dc-bba4-5d207f3a1c86")
+	)
+	(wire
+		(pts
 			(xy 242.57 76.2) (xy 240.03 76.2)
 		)
 		(stroke
@@ -3480,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 38.1) (xy 127 38.1)
+			(xy 120.65 38.1) (xy 125.73 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3570,6 +3606,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 35.56) (xy 125.73 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ae09de-ed28-4bfa-b877-4897a85fdd24")
+	)
+	(wire
+		(pts
 			(xy 127 153.67) (xy 139.7 153.67)
 		)
 		(stroke
@@ -3617,6 +3663,16 @@
 			(type default)
 		)
 		(uuid "b1d44c0a-acc9-44fb-9bdf-fa5a3f92d79d")
+	)
+	(wire
+		(pts
+			(xy 25.4 73.66) (xy 33.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9adb7b3-f7f2-4ff7-b95c-898546d1898c")
 	)
 	(wire
 		(pts
@@ -3918,6 +3974,16 @@
 		)
 		(uuid "41ac76ff-9777-4728-8a65-ef01ff5becd4")
 	)
+	(text "TagConnect JTAG signals are 1.5V levels converted on offboard translator board. \nVDDB is connected to VDDSW only when the tagconnect cable is plugged in."
+		(exclude_from_sim no)
+		(at 40.894 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fdfc966-a0ba-4fed-86df-d9c859acb957")
+	)
 	(text "R10,R11 are\nshorted in copper."
 		(exclude_from_sim no)
 		(at 241.3 54.61 0)
@@ -3991,6 +4057,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDB"
+		(shape bidirectional)
+		(at 60.96 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a172eea-b8d0-466f-974e-0249ae705dce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.9551 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4074,6 +4162,50 @@
 		(uuid "853a55a3-90be-4d42-ae0e-bae8e0ab85d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.5567 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDB"
+		(shape bidirectional)
+		(at 104.14 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d8aa81a-e624-4150-89ea-163de74208b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.1449 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDDSW"
+		(shape output)
+		(at 25.4 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92105960-f033-42e7-9cf4-c29ce88af804")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.1253 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
