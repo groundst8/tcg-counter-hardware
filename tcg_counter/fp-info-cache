@@ -1,4 +1,4 @@
-23806953881667668
+23808701918099774
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90404,6 +90404,13 @@ Logo WEEE
 0
 0
 0
+TIFootprints
+TI_RTW24_4x4mm_EP2.2mm
+Texas Instruments RTW‑24 WQFN, 4×4 mm, 24 pins, 0.5 mm pitch, 2.2 mm exposed pad
+WQFN24 RTW 4x4 0.5mm
+0
+30
+25
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

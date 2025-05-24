@@ -4948,7 +4948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "tcal:WQFN24_RTW-J_TEX-L"
+		(property "Footprint" "TIFootprints:TI_RTW24_4x4mm_EP2.2mm"
 			(at 117.348 164.592 0)
 			(effects
 				(font
