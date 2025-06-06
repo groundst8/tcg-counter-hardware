@@ -4347,7 +4347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "259ddd97-c1f3-4d9d-bb94-116c0736ab6a")
-		(property "Reference" "U2"
+		(property "Reference" "DS1"
 			(at 157.48 113.03 0)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 		(instances
 			(project ""
 				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
-					(reference "U2")
+					(reference "DS1")
 					(unit 1)
 				)
 			)
@@ -4728,7 +4728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b53669e-89cd-40eb-ac66-20958a4198ef")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 177.8 18.1356 0)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 		(instances
 			(project "tcg_counter"
 				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4948,7 +4948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "tcal:WQFN24_RTW-J_TEX-L"
+		(property "Footprint" "TIFootprints:TI_RTW24_4x4mm_EP2.2mm"
 			(at 117.348 164.592 0)
 			(effects
 				(font
@@ -5492,7 +5492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "723b35b2-58ab-4580-b73c-b62a9765417b")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 93.218 48.26 0)
 			(effects
 				(font
@@ -5546,7 +5546,7 @@
 		(instances
 			(project ""
 				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6029,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b83789e8-8963-4776-a5a9-09baba4b4056")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 85.344 48.26 0)
 			(effects
 				(font
@@ -6083,7 +6083,7 @@
 		(instances
 			(project ""
 				(path "/e96f5edd-89b2-41c9-95e7-7ba29a607891"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)

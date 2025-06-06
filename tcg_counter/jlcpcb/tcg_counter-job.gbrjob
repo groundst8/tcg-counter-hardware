@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.5"
     },
-    "CreationDate": "2025-05-24T22:45:15-04:00"
+    "CreationDate": "2025-05-26T10:54:01-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "tcg_counter-F_Cu.gbr",
+      "Path": "tcg_counter-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tcg_counter-B_Cu.gbr",
+      "Path": "tcg_counter-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tcg_counter-F_Paste.gbr",
+      "Path": "tcg_counter-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tcg_counter-B_Paste.gbr",
+      "Path": "tcg_counter-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tcg_counter-F_Silkscreen.gbr",
+      "Path": "tcg_counter-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tcg_counter-B_Silkscreen.gbr",
+      "Path": "tcg_counter-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tcg_counter-F_Mask.gbr",
+      "Path": "tcg_counter-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "tcg_counter-B_Mask.gbr",
+      "Path": "tcg_counter-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "tcg_counter-Edge_Cuts.gbr",
+      "Path": "tcg_counter-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
