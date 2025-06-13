@@ -102,6 +102,19 @@ Ynvisible provided segment switching current decay curves which are shown below 
 - Evaluate passive power ability to drive display
 - Complete PCB layouts for mainboard and JTAG translation board
 
+## Iteration 5 - v1.0.0
+
+### JLCPCB PCB with rails/fiducials for assembly
+<img src="https://github.com/user-attachments/assets/b00f4484-348b-4d9d-921c-3f2629755197" width="500"/>
+<img src="https://github.com/user-attachments/assets/22182417-ba18-4789-8a24-74d5210bc403" width="500"/>
+
+### Board with display attached and functioning
+<img src="https://github.com/user-attachments/assets/5b781204-eb00-4b8c-9f98-55476d2365f1" width="500"/>
+
+#### Issues
+- Forgot pull-up resistors for RESET and INT pins on TCAL
+- Firmware updating all segments in parallel is causing brownouts, look into sequential segment updating
+
 ## Electrical Engineering
 
 [Jupyter Notebook](display.ipynb)
